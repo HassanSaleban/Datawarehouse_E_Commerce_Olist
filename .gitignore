@@ -20,3 +20,32 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+# --- Données ---
+*.csv
+*.tsv
+*.parquet
+*.zip
+data/
+datasets/
+
+# Garde un exemple si tu veux (retire cette ligne si inutile)
+#!data/exemple.csv
+
+# --- Environnements virtuels ---
+olist_env/
+.venv/
+venv/
+env/
+
+# --- Python / notebooks ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.ipynb_checkpoint
+
+# --- Secrets / config locaux ---
+.env
+*.sqlite3
+.DS_Store
+Thumbs.db
